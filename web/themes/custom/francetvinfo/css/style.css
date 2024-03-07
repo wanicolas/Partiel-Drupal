@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  font-family: "Noto Sans", sans-serif !important;
+}
+
+.header_menu {
+  ul {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}
+
+.mycontent {
+  h2 {
+    font-weight: 700;
+    margin-top: 0.5rem;
+    :hover {
+      text-decoration: underline;
+      text-underline-offset: 0.3rem;
+    }
+  }
+}
+
+.page_article {
+  .body {
+    h2 {
+      font-weight: 500;
+      font-size: 2rem;
+      margin-top: 1rem;
+      ::before {
+        margin-right: 15px;
+        color: #ffc300;
+        content: "•";
+      }
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: rgb(70, 70, 70);
+    }
+  }
+  .sujets {
+    a {
+      border: black 1px solid;
+      border-radius: 0.2rem;
+      font-weight: 500;
+      padding: 0.25rem 0.5rem;
+    }
+    div > div {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}
+
+.footer_menu {
+  ul {
+    min-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 5rem;
+    row-gap: 0.7rem;
+    font-size: 0.7rem;
+    max-height: 10rem;
+  }
+}

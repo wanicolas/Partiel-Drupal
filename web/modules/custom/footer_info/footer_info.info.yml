@@ -1,0 +1,5 @@
+name: Footer Infos Module
+description: Affichera en front-office, dans le footer, le login et le mot de passe à utiliser pour se connecter au back-office
+package: Custom
+type: module
+core_version_requirement: ^10

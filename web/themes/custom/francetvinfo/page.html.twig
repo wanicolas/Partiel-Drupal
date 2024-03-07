@@ -46,30 +46,28 @@
  */
 #}
 <div class="layout-container">
-
-  <header class="bg-gray-800 text-white p-3 md:p-6">
-    <div class="max-w-7xl mx-auto flex justify-between">
-      <div>{{ page.header }}</div>
-      <div class="flex gap-4 items-center">
-        <div class="header_menu">{{ page.header_menu }}</div>
-        <div>{{ page.header_search }}</div>
+  <div class="min-h-dvh">
+    <header class="bg-gray-800 text-white p-3 md:p-6">
+      <div class="max-w-7xl mx-auto flex justify-between">
+        <div>{{ page.header }}</div>
+        <div class="flex gap-4 items-center">
+          <div class="header_menu">{{ page.header_menu }}</div>
+          <div>{{ page.header_search }}</div>
+        </div>
       </div>
-    </div>
-  </header>
-
-  <main class="max-w-7xl mx-auto px-3 pt-6 md:pt-12">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-    <div class="layout-content">
-      <div class="mycontent">{{ page.content }}</div>
-    </div>
-
-    {% if page.sidebar %}
-      <aside>
-        {{ page.sidebar }}
-      </aside>
-    {% endif %}
-  </main>
+    </header>
+    <main class="max-w-7xl mx-auto px-3 pt-6 md:pt-12">
+      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+      <div class="layout-content">
+        <div class="mycontent">{{ page.content }}</div>
+      </div>
+      {% if page.sidebar %}
+        <aside>
+          {{ page.sidebar }}
+        </aside>
+      {% endif %}
+    </main>
+  </div>
 
   <footer class="bg-gray-800 text-white p-3 md:p-6">
     <div class="max-w-7xl mx-auto flex justify-between">
@@ -77,5 +75,4 @@
       <div class="footer_menu">{{ page.footer_menu }}</div>
     </div>
   </footer>
-
 </div>{# /.layout-container #}
