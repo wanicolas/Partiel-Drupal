@@ -23,6 +23,8 @@
         "drupal/gin": "^3.0@rc",
         "drupal/gin_toolbar": "^1.0@rc",
         "drupal/pathauto": "^1.12",
+        "drupal/stable": "^2.0",
+        "drupal/tailwindcss": "^5.0@alpha",
         "drush/drush": "^12.4"
     },
     "conflict": {

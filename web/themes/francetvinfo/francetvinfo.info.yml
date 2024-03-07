@@ -1,0 +1,20 @@
+name: FranceTVInfo
+type: theme
+description: This is a FranceTVInfo sub theme of Stark.
+logo: images/logo.svg
+core_version_requirement: ^10
+# Defines the base theme
+base theme: false
+# Defines the regions of the theme.
+regions:
+  header: "Header"
+  header_menu: "Header menu"
+  header_search: "Header search"
+  content: "Content"
+  sidebar: "Sidebar"
+  footer: "Footer"
+  footer_menu: "Footer menu"
+# Defines libraries group in which we can add CSS/JS.
+libraries:
+  - francetvinfo/global-styling
+  - francetvinfo/global-scripts
