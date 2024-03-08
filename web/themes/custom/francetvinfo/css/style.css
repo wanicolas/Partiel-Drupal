@@ -4,6 +4,11 @@ html {
   font-family: "Noto Sans", sans-serif !important;
 }
 
+input, textarea, button {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
 .header_menu {
   ul {
     display: flex;
@@ -53,6 +58,12 @@ html {
       display: flex;
       gap: 1rem;
     }
+  }
+}
+
+.footer {
+  a {
+    text-decoration: underline;
   }
 }
 

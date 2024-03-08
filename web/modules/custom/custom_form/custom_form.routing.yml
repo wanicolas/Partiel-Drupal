@@ -1,0 +1,7 @@
+custom_form.contact_form:
+  path: '/contact'
+  defaults:
+    _form: '\Drupal\custom_form\Form\CustomForm'
+    _title: 'Formulaire de Contact'
+  requirements:
+    _permission: 'access content'
